@@ -6,6 +6,11 @@ public class OrderItem {
         this.quantity = quantity;
         this.product = product;
     }
+
+    public double getSalesPrice() {
+        return product.getPrice() * quantity;
+    }
+
     public void printPricedItem() {
         product.printPricedItem(quantity);
     }

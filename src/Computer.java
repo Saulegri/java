@@ -1,6 +1,6 @@
-public class Computer extends ProductForSale{
+public class Computer extends ProductForSale {
     public Computer(String type, double price, String description) {
-        super(type,price,description);
+        super(type, price, description);
     }
 
     @Override
